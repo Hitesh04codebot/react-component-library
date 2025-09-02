@@ -1,77 +1,144 @@
-# React Component Library
+React Component Library
+A comprehensive React component library built with TypeScript, featuring customizable UI components with modern styling, accessibility features, and full documentation.
 
-A collection of reusable React components built with TypeScript, TailwindCSS, and Storybook.
+🚀 Live Demos
+Main Application: Vercel Deployment
 
-## Components
+Storybook Documentation: Chromatic Deployment
 
-### InputField
-A flexible input component with validation states, clear button, and password toggle.
+GitHub Repository: https://github.com/Hitesh04codebot/react-component-library
 
-**Features:**
-- Text input with label, placeholder, helper text, error message
-- States: disabled, invalid, loading
-- Variants: filled, outlined, ghost
-- Sizes: small, medium, large
-- Optional: clear button, password toggle
-- Support for light & dark theme
+📦 Components
+InputField
+A highly customizable input component with multiple variants, validation states, and interactive features.
 
-### DataTable
-A data table component with sorting, row selection, and responsive design.
+Features:
 
-**Features:**
-- Display tabular data
-- Column sorting
-- Row selection (single/multiple)
-- Loading state
-- Empty state
-- Responsive design
-- Dark mode support
+✅ Text input with label, placeholder, helper text, error message
 
-## Installation
+✅ Multiple states: disabled, invalid, loading
 
-<<<<<<< HEAD
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd component-library
-=======
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Variants: filled, outlined, ghost
 
-### `npm run build`
+✅ Sizes: small, medium, large
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Optional: clear button, password toggle
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Light & dark theme support
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ Full accessibility (ARIA labels)
 
-### `npm run eject`
+✅ Responsive design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+DataTable
+A powerful data table component with sorting, selection, and responsive capabilities.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Features:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+✅ Display tabular data with custom rendering
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+✅ Column sorting (ascending/descending)
 
-# Contributing Guidelines
+✅ Row selection (single/multiple)
 
-Thank you for considering contributing to this project!
+✅ Loading state with spinner
 
-## How to Contribute
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+✅ Empty state handling
 
-## Learn More
+✅ Responsive design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Dark theme support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> 493bad61092e384fa01e2480ce77c817b0f9532c
+✅ Accessibility compliant
+
+🛠️ Technologies Used
+React 18 - UI framework
+
+TypeScript - Type safety
+
+TailwindCSS - Styling and responsive design
+
+Storybook - Component documentation
+
+Lucide React - Icons
+
+Jest & React Testing Library - Testing
+
+📋 Prerequisites
+Node.js 16.0 or higher
+
+npm or yarn package manager
+
+
+🎨 Features
+Responsive Design
+Mobile-first approach with TailwindCSS
+
+Adaptive layouts for all screen sizes
+
+Touch-friendly interactions
+
+Accessibility
+ARIA labels and roles
+
+Keyboard navigation support
+
+Screen reader compatible
+
+Focus management
+
+Theme Support
+Light and dark mode ready
+
+Customizable color schemes
+
+Consistent design tokens
+
+Performance
+Optimized re-renders
+
+Efficient sorting algorithms
+
+Lazy loading ready
+
+
+<img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/bc8dff1b-475a-4137-b37f-0656ec529d02" />
+<img width="1860" height="282" alt="image" src="https://github.com/user-attachments/assets/6d42e525-6c3d-457d-a6ae-76650550d66f" />
+
+Each component includes:
+
+Multiple usage examples
+
+Interactive controls
+
+Accessibility testing
+
+Responsive testing
+
+src/
+  components/
+    InputField/
+      InputField.tsx          # Main component
+      InputField.stories.tsx  # Storybook stories
+      InputField.test.tsx     # Unit tests
+      index.ts               # Barrel export
+    DataTable/
+      DataTable.tsx
+      DataTable.stories.tsx
+      DataTable.test.tsx
+      index.ts
+  App.tsx                    # Demo application
+  index.tsx                  # Application entry point
+.storybook/                  # Storybook configuration
+public/                     # Static assets
+screenshots/                # Documentation images
+
+🏆 Acknowledgments
+React team for the amazing framework
+
+TailwindCSS for the utility-first CSS framework
+
+Storybook team for component documentation tools
+
+Lucide for the beautiful icons
+
