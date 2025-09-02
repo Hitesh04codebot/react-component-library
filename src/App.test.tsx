@@ -1,9 +1,14 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders user management heading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const headingElement = screen.getByText(/User Management/i);
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('renders search input', () => {
+  render(<App />);
+  const searchInput = screen.getByPlaceholderText(/Search by name or email/i);
+  expect(searchInput).toBeInTheDocument();
 });
